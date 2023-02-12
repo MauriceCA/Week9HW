@@ -1,0 +1,121 @@
+.heading-background {
+    background-image: url(https://store.aleramedspa.com/wp-content/uploads/2020/10/hotstone2.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: center;
+    padding: 250px;
+}
+
+p {
+    font-size: 20px;
+}
+.secondHeading {
+    background: rgb(59,115,3);
+    background: linear-gradient(132deg, rgba(59,115,3,1) 48%, rgba(114,166,3,1) 100%);
+    color: lightgray;
+    padding: 2.5% 5% 2.5% 5%;
+}
+
+ul {
+    font-size: larger
+}
+
+li {
+    line-height: 2;
+}
+
+.footerInfo {
+    background: rgb(127,88,166);
+    background: linear-gradient(132deg, rgba(127,88,166,1) 51%, rgba(176,162,191,1) 100%);
+    padding: 5%;
+    color: lightgray;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}  
+
+.servicesBackground {
+    background-image: url(pictures/pexels-nothing-ahead-3571563\ \(1\).jpg);
+    object-fit: contain;
+}
+
+#massageServicesTitle {
+    color: #DCE6DD;
+    padding: 10vh;
+    font-size: 50px;
+}
+
+.greenBackground {
+    background-color: #3B7303;
+    opacity: 90%;
+    color: #DCE6DD;
+    padding: 2.5% 5% 0% 5%;
+}
+
+.Green {
+    color: #DCE6DD;
+    padding: 5% 5% 5% 5%;
+    border-bottom: rgb(127,88,166) 100px;
+}
+
+.Green2 {
+    background-color: #3B7303;
+    opacity: 90%;
+    color: #DCE6DD;
+
+    padding: 5% 5% 5% 10%; 
+}
+
+#contactUsTitle {
+    font-size: 50px;
+    color: #DCE6DD;
+}
+
+input {
+    width: 100%;
+    padding: 2%;
+    margin: 20px;
+    font-size: medium;
+}
+
+section {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#signatureMassage, #essentialMassage, #therapeuticBodyWork, #FibromyalgiaTreatment {
+  width: 3%;
+  align-items: center;
+}
+
+
+input[type="checkbox"] {
+  margin-right:20px;
+}
+
+#additionalInfoInput {
+  padding: 2% 2% 10% 2%;
+}
+
+button {
+  width: 7vw;
+}
+
+#phoneNumber {
+  font-size: 3vw;
+}
