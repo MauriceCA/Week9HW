@@ -2,10 +2,16 @@
     background-image: url(https://store.aleramedspa.com/wp-content/uploads/2020/10/hotstone2.jpg);
     background-repeat: no-repeat;
     display: flex;
+    width: 100%;
     background-position: center;
     padding: 20vw;
+    background-size: 100% 100%;
 }
 
+#transparentBackground {
+    background-color: white;
+    background: hsla(0, 0%, 100%, 0.726);
+}
 p {
     font-size: 20px;
 }
@@ -36,6 +42,11 @@ li {
     color: lightgray;
 }
 
+.servicesBackground {
+    background-image: url(pictures/pexels-nothing-ahead-3571563\ \(1\).jpg);
+    object-fit: contain;
+}
+
 .fa {
     padding: 20px;
     font-size: 100px;
@@ -52,11 +63,6 @@ li {
 .fa-linkedin {
     background: #007bb5;
     color: white;
-}  
-
-.servicesBackground {
-    background-image: url(pictures/pexels-nothing-ahead-3571563\ \(1\).jpg);
-    object-fit: contain;
 }
 
 #massageServicesTitle {
@@ -82,7 +88,6 @@ li {
     background-color: #3B7303;
     opacity: 90%;
     color: #DCE6DD;
-
     padding: 5% 5% 5% 10%; 
 }
 
@@ -110,7 +115,7 @@ section {
 
 
 input[type="checkbox"] {
-  margin-right:20px;
+  margin-right:5px;
 }
 
 #additionalInfoInput {
@@ -119,8 +124,4 @@ input[type="checkbox"] {
 
 button {
   width: 7vw;
-}
-
-#phoneNumber {
-  font-size: 3vw;
 }
