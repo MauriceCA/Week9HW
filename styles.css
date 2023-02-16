@@ -3,17 +3,25 @@
     background-repeat: no-repeat;
     display: flex;
     background-position: center;
-    padding: 250px;
+    padding: 20vw;
 }
 
 p {
     font-size: 20px;
 }
+
+div {
+    border: red solid 10px;
+}
+#fitContent {
+    width: fit-content;
+}
+
 .secondHeading {
     background: rgb(59,115,3);
     background: linear-gradient(132deg, rgba(59,115,3,1) 48%, rgba(114,166,3,1) 100%);
     color: lightgray;
-    padding: 2.5% 5% 2.5% 5%;
+    padding: 5% 5% 2.5% 5%;
 }
 
 ul {
